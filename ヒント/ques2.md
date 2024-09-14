@@ -2,7 +2,8 @@
 
 詰まったら下の関数をお使いください
 
-```def gacha():
+```
+def gacha():
     hit = random.random()
     if hit < 0.01:
         return True
