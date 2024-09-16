@@ -43,6 +43,7 @@ count = 0
 while count < 5:
     print("カウント:", count)
     count = count + 1
+count = 0
 
 # 文字列の操作
 message = "Python is fun!"
@@ -65,7 +66,7 @@ print("あなたは約", age, "歳ですね。")
 num1 = float(input("1つ目の数字を入力してください: "))
 num2 = float(input("2つ目の数字を入力してください: "))
 
-result = num1/num2
+result = num1/count
 
 print("計算結果:", result)
 
