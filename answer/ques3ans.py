@@ -21,7 +21,7 @@ print("x / y =", x / y)
 if age >= 20:
     print(name + "さんは成人です。")
 else:
-    print(name + "さんは未成年です。")
+    print(name + "さんは未成年です。") #←ココ修正
 
 # リストの使用
 fruits = ["りんご", "バナナ", "オレンジ"]
@@ -66,7 +66,7 @@ print("あなたは約", age, "歳ですね。")
 num1 = float(input("1つ目の数字を入力してください: "))
 num2 = float(input("2つ目の数字を入力してください: "))
 
-result = num1/count
+result = num1/num2 #←ココ修正
 
 print("計算結果:", result)
 
